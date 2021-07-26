@@ -1,5 +1,5 @@
 
-##About
+## About
 JunkSeeker is a command-line tool that helps identify what files and folders are taking up the most space in a given
 directory.
 
@@ -10,22 +10,22 @@ NTFS. Make sure to set the cluster size with the `size` command.
 
 Uses the Windows API so its windows only atm, unless the C interop does something magical.
 
-##Commands
+## Commands
 
-###always available
+### always available
 |command| function|
 |---|---|
 | `help` / `man` | brings up this message |
 | `exit` / `q` | exits the program |
 
-###available before the file tree has been created
+### available before the file tree has been created
 |command| function|
 |---|---|
 | `size [new size]`          | sets the cluster size used for estimating physical file size |
 | `interval [file interval]` | sets how frequently the number of files discovered is printed while creating the virtual file tree |
 | `start`                    | starts creating the virtual file tree |
 
-###available after the file tree has been created
+### available after the file tree has been created
 |command| function|
 |---|---|
 | `cd [folder name]` | changes directory |
