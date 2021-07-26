@@ -1,3 +1,3 @@
 
-rootProject.name = "Junk-Seeker"
+rootProject.name = "JunkSeeker"
 
